@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\@projects\\dotnet\\Demo.Observability\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|c:\\@projects\\dotnet\\demo.observability\\src\\demo.insights\\configuration\\otelextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|solutionrelative:src\\demo.insights\\configuration\\otelextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE06EEDD-F1B5-7392-7B94-AE3D86D43FA2}|src\\Demo.Aspire\\Demo.Aspire.csproj|c:\\@projects\\dotnet\\demo.observability\\src\\demo.aspire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE06EEDD-F1B5-7392-7B94-AE3D86D43FA2}|src\\Demo.Aspire\\Demo.Aspire.csproj|solutionrelative:src\\demo.aspire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE06EEDD-F1B5-7392-7B94-AE3D86D43FA2}|src\\Demo.Aspire\\Demo.Aspire.csproj|c:\\@projects\\dotnet\\demo.observability\\src\\demo.aspire\\configuration\\otelextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE06EEDD-F1B5-7392-7B94-AE3D86D43FA2}|src\\Demo.Aspire\\Demo.Aspire.csproj|solutionrelative:src\\demo.aspire\\configuration\\otelextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|c:\\@projects\\dotnet\\demo.observability\\src\\demo.insights\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|solutionrelative:src\\demo.insights\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|c:\\@projects\\dotnet\\demo.observability\\src\\demo.insights\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|solutionrelative:src\\demo.insights\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|c:\\@projects\\dotnet\\demo.observability\\src\\demo.insights\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|solutionrelative:src\\demo.insights\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|c:\\@projects\\dotnet\\demo.observability\\src\\demo.insights\\demo.insights.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E00BA40-7809-4048-A0F3-29A6DADBE3D6}|src\\Demo.Insights\\Demo.Insights.csproj|solutionrelative:src\\demo.insights\\demo.insights.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Aspire\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Demo.Aspire\\Program.cs",
+              "ToolTip": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Aspire\\Program.cs",
+              "RelativeToolTip": "src\\Demo.Aspire\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T02:34:27.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OTelExtensions.cs",
+              "DocumentMoniker": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Aspire\\Configuration\\OTelExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Demo.Aspire\\Configuration\\OTelExtensions.cs",
+              "ToolTip": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Aspire\\Configuration\\OTelExtensions.cs",
+              "RelativeToolTip": "src\\Demo.Aspire\\Configuration\\OTelExtensions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T02:33:54.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "src\\Demo.Insights\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "src\\Demo.Insights\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T02:29:18.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Demo.Insights\\Program.cs",
+              "ToolTip": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\Program.cs",
+              "RelativeToolTip": "src\\Demo.Insights\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T02:27:51.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Demo.Insights\\appsettings.json",
+              "ToolTip": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\appsettings.json",
+              "RelativeToolTip": "src\\Demo.Insights\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T02:25:19.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Demo.Insights",
+              "DocumentMoniker": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\Demo.Insights.csproj",
+              "RelativeDocumentMoniker": "src\\Demo.Insights\\Demo.Insights.csproj",
+              "ToolTip": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\Demo.Insights.csproj",
+              "RelativeToolTip": "src\\Demo.Insights\\Demo.Insights.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-27T02:13:38.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OTelExtensions.cs",
+              "DocumentMoniker": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\Configuration\\OTelExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Demo.Insights\\Configuration\\OTelExtensions.cs",
+              "ToolTip": "C:\\@projects\\dotnet\\Demo.Observability\\src\\Demo.Insights\\Configuration\\OTelExtensions.cs",
+              "RelativeToolTip": "src\\Demo.Insights\\Configuration\\OTelExtensions.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T02:13:23.773Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
