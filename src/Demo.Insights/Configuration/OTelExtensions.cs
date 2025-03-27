@@ -1,4 +1,4 @@
-﻿using Azure.Monitor.OpenTelemetry.AspNetCore;
+﻿using Azure.Monitor.OpenTelemetry.Exporter;
 using OpenTelemetry.Metrics;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
@@ -9,33 +9,30 @@ namespace Demo.Insights.Configuration
     {
         public static void AddOTelTracing(this IServiceCollection services, IConfiguration configuration)
         {
-            var otel = services.AddOpenTelemetry()
+            services.AddOpenTelemetry()
                  .ConfigureResource(resource => resource.AddService("Demo.Insights"))
                  .WithTracing(tracing =>
                  {
                      tracing
                      .AddAspNetCoreInstrumentation()
-                     .AddHttpClientInstrumentation();
+                     .AddHttpClientInstrumentation()
+                     .AddAzureMonitorTraceExporter(c =>
+                        c.ConnectionString = configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"]);
                  });
-
-            if (!string.IsNullOrEmpty(configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"]))
-                otel.UseAzureMonitor();
         }
 
         public static void AddOTelMetrics(this IServiceCollection services, IConfiguration configuration)
         {
-            var otel = services.AddOpenTelemetry()
-                 .ConfigureResource(resource => resource.AddService("Demo.Insights"))
-                 .WithMetrics(metrics =>
-                 {
-                     metrics
-                     .AddAspNetCoreInstrumentation()
-                     .AddHttpClientInstrumentation();
-                 });
-
-            if (!string.IsNullOrEmpty(configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"]))
-                otel.UseAzureMonitor();
-
+            services.AddOpenTelemetry()
+                  .ConfigureResource(resource => resource.AddService("Demo.Insights"))
+                  .WithMetrics(metrics =>
+                  {
+                      metrics
+                      .AddAspNetCoreInstrumentation()
+                      .AddHttpClientInstrumentation()
+                      .AddAzureMonitorMetricExporter(c =>
+                         c.ConnectionString = configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"]);
+                  });
         }
 
         public static void AddOTelLogging(this ILoggingBuilder builder, IConfiguration configuration)
@@ -45,8 +42,6 @@ namespace Demo.Insights.Configuration
                  logging.IncludeFormattedMessage = true;
                  logging.IncludeScopes = true;
              });
-
-
         }
     }
 }

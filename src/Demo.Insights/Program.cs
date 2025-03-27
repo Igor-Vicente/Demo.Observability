@@ -1,5 +1,6 @@
 
 using Demo.Insights.Configuration;
+using Serilog;
 
 namespace Demo.Insights
 {
@@ -17,6 +18,9 @@ namespace Demo.Insights
             builder.Services.AddOTelMetrics(builder.Configuration);
             builder.Logging.AddOTelLogging(builder.Configuration);
 
+            builder.Host.UseSerilog((ctx, conf) =>
+                conf.ReadFrom.Configuration(ctx.Configuration));
+
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())
@@ -25,6 +29,8 @@ namespace Demo.Insights
                 app.UseSwaggerUI();
             }
 
+            app.UseSerilogRequestLogging();
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
