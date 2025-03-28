@@ -17,7 +17,7 @@ docker run --name seq -d --restart unless-stopped -e ACCEPT_EULA=Y -p 5341:80 da
 
 # Observability
 
-Observability requires **instrumentation**.
+Observability usually requires **instrumentation**: [Observability approaches in .NET](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#observability-approaches-in-net).
 
 Instrumentation is code that is added to a software project to record what it is doing. This information can then be collected in files, databases, or in-memory and analyzed to understand how a software program is operating.
 
